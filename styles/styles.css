@@ -1,8 +1,39 @@
-*{
+* {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
 }
+
+/*Class selectors*/
+.box {
+      margin:1rem;
+      border: 1px solid rgba(0, 0, 0, .1);
+      padding: 1rem;
+      background-color: #ddd;
+      color :#000;
+}
+
+aside {
+      width: 20em;
+      text-align: center;
+}
+
+main image {
+      float:right;
+      width: 150px;
+      height: auto;
+      border:1px solid steelblue;
+      padding: 2px;
+      box-shadow: 0 0 30px gray;
+      margin: 0 0 1rem 1rem;
+}
+
+aside h2{
+      position: absolute;
+      top: 47px;
+      left: 150px;
+}
+
 body{
       font-size: 16px;
       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
@@ -13,51 +44,19 @@ main{
 
 }
 
-main image {
-    
-      width: 150px;
+aside image {
+      width: 200px;
       height: auto;
-      border:1px solid steelblue;
-      padding: 2px;
-      box-shadow: 0 0 30px gray;
-      float:right;
-      margin: 0 0 1rem 1rem;
-}
-
-aside {
-      width: 20em;
-      text-align: center;
-      position: relative;
-  }
-
-  aside image {
-        width: 200px;
-        height: auto;
-  }
-
-  aside h2{
-        position: absolute;
-        top: 67px;
-        left: 150px;
 }
 
 p {
       margin: 1rem;}
 footer {
       margin-top: 15px;
-      border-top: 1px; solid #0000 ;
-      text-align: center;
+      border-top: 1px; solid 
 }
 
-/*Class selectors*/
-.box{
-      margin:1rem;
-      border: 1px solid rgba(0, 0, 0, .1);
-      padding: 1rem;
-      background-color: #ddd;
-      color :#000;
 
-}
 .indent{
-      padding-left: 1rem;
+      padding: 1rem;
 }
