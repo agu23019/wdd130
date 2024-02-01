@@ -1,92 +1,78 @@
-* {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      
-}
-
-/*Class selectors*/
-.box {
-      margin:1rem;
-      border: 1px solid rgba(0, 0, 0, .1);
-      padding: 1rem;
-      background-color: #ddd;
-      color :#000;
-}
-
-aside {
-      width: 20em;
-      text-align: center;
-}
-
-main image {
-      float:left;
-      width: 150px;
+main img{
+      float:right;
+      width:150px;
       height: auto;
       border:1px solid steelblue;
       padding: 2px;
       box-shadow: 0 0 30px gray;
-      margin: 0 0 1rem 1rem;   
+      margin:0 0 1rem;
 }
-
-aside h2 {   
+* {
+      margin:0;
+      padding:0;
+      box-sizing: border-box;
+}
+/*class selectors*/
+.box {
+      margin: 1rem;
+      border:1px solid rgba(0, 0, 0, 1);
+      padding: 1rem;
+      background-color: #ddd;
+      color: #000;
+}
+aside h2 {
       top: 40px;
       left: 70px;
 }
-
-body{
+body {
       font-size: 16px;
-      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
 p {
-      margin: 1rem;}
+      margin: 1rem;
+}
 footer {
       margin-top: 15px;
-      border-top: 1px; solid 
+      border-top: 1px; solid;
 }
-
-
-.indent{
+.indent {
       padding: 1rem;
 }
-
 header  , .grid , footer {
       max-width: 840px;
       margin: 0 auto;
 }
-
-nav{
+nav {
       background-color: steelblue;
       padding: 1rem;
       display: flex;
       justify-content: space-evenly;
-      align-items: center;
+      align-items:center
 }
 nav a {
-      display: block;
-      padding: 0.5rem;
-      text-decoration: none;
+      display:block;
+      padding:0.5rem;
+      text-decoration:none;
       font-size: 1,2rem;
-      font-weight: 700;
+      font-weight:500;
       color: #fff;/% shorthand for white %/
 }
-.grid{
-      display: grid;
+.grid {
+      display:flexbox;
       align-items: center;
 }
-main{
-      grid-column: 2/3 ;
+main {
+      grid-column: 2/3;
       margin: 1rem;
 }
-aside{
+aside {
       width: 20rem;
-      position: relative;
+      position:relative;
       grid-column: 1/2;
       grid-row: 1/2;
 }
-.div h2 img {      
+.div h2 img {
       float: left;
       width: 25px;
-      position:inherit;
+      position: relative;
 }
