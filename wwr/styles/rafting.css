@@ -1,3 +1,66 @@
+header {
+    display:grid;
+    align-items: center;
+    grid-template-columns:  120px 1fr 2fr;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+}
+.logo img {
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
+}
+h1{
+    font-size: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+    text-align: right;
+}
+.navigation {
+    display:flex;
+    list-style: none;
+}
+.navigation li {
+    flex:1 1 100%;
+}
+.navigation a {
+    display: block;
+    color: navy;
+    padding: 20px;
+    text-decoration: none;
+}
+.navigation a : hover {
+    color:tomato;
+    font-weight: 700;
+    text-decoration:underline;
+}
+
+div {
+    display: grid;
+}
+
+aside img {
+    display:flow-root;
+    width: 15rem;
+    margin: 0 0.25rem 0 1rem;
+    align-items: flex-start;
+
+}
+footer  {
+    content: right;
+
+
+}
+
+figcaption {
+    background-color:#0a9396;
+    color: #fff;
+    font:italic;
+    padding: 3px;
+    text-align: center;
+}
 @import url(https://fonts.google.com/specimen/Poppins);
 :root{
 --primary-color :#081C15;
@@ -25,13 +88,14 @@ header img {
 
 .article{
     position: absolute;
+    float: left;
 }
 .h1{
     position: absolute;
     
 }
 .h1 img{
-    float: right;
+    float: left;
 }
 main{
     max-width: 800px;
@@ -60,9 +124,7 @@ main{
     box-shadow: 0 0 0px #111;
     opacity: 0.9;
 }
-.h2 img {
-    position:relative;
-}
+
 nav img{
-    width: 15px;
+    width: 10px;
 }
