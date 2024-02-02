@@ -60,7 +60,7 @@ nav a {
       color: #fff;/% shorthand for white %/
 }
 .grid {
-      display:flexbox;
+      display:grid;
       align-items: center;
 }
 main {
@@ -73,7 +73,7 @@ aside {
       grid-column: 1/2;
       grid-row: 1/2;
 }
-aside div {
+aside div .class {
       position: relative;
       
       
