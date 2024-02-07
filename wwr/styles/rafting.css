@@ -86,7 +86,7 @@ figcaption {
 --paragraph-font:Poppins;
 --nav-background-color:#03071e;
 --nav-link-color:#cad2c5;
---nav-hover-link-color:#edf6f9;
+--nav-hover-link-color:#ccc;
 --nav-hover-background-color:#0a9396;
 
 }
@@ -133,11 +133,10 @@ header img {
     position:relative;
     bottom: 0px;
     left: 0px;
-    background:#cad2c5;
     border: 0px solid #000;
     padding: 0.65rem;
     box-shadow: 0 0 0px #111;
-    opacity: 0.9;
+    opacity: 0.9.5;
     display:flow-root;
     align-items:center;
     justify-content:center;
