@@ -1,0 +1,19 @@
+input , textarea{
+    width: 500px;
+}
+img{
+    width: 100px;
+    height: 2rem;
+}
+button{
+    color:aliceblue;
+    background-color: blue;
+    width: 508px;
+    
+
+}
+*{
+    background: #ccc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}

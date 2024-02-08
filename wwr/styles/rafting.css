@@ -41,9 +41,13 @@ nav{
 div {
     display: flexbox;
 }
-.box {
-    size: 20px;
-    size-adjust: 12px;
+.sociallinks  {
+    
+    right:500px
+    position:right;
+    bottom:0px;
+    top:10px;
+
     
     
 }
@@ -62,8 +66,10 @@ div {
 footer  {
     align-items: flex-end;
     display: flex;
+    flex-direction: row;
     content: right;
     float: right;
+
 }
 
 
