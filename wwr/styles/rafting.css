@@ -16,13 +16,18 @@ h1{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-nav{
+nav {
+    flex-direction: row;
+    display: flex;
+    justify-items: right;
+    
     text-align: right;
+    
 }
-.navigation {
-    display:flex;
-    list-style: none;
+footer nav{
+    display: flexbox;
 }
+
 .navigation li {
     flex:1 1 100%;
 }
